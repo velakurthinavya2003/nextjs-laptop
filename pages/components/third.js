@@ -28,9 +28,9 @@ const Third = () =>{
             <div className={styles.innercontainer}>
                 <div className={styles.subdiv}>
                 <div ref={animation}  className={styles.imagecontent}> 
-                < Image className={styles.imgl} src="/img2.png" height={300} width={300}/></div>
+                < Image className={styles.imgl} src="./img2.png" height={300} width={300}/></div>
                 <div className={styles.content}>
-                <Image  className={styles.img} src="/man-removebg-preview.png" height={200} width={300} />
+                <Image  className={styles.img} src="./man-removebg-preview.png" height={200} width={300} />
                 </div>
                 </div>
 
