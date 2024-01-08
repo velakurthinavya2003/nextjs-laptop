@@ -25,7 +25,7 @@ const Second = () =>{
     return (
         <div className={styles.container} >
             <div className={styles.innercontainer}>
-            <Image  ref={animation} className={styles.img} src="/img3.png" height={200} width={300} />
+            <Image  ref={animation} className={styles.img} src="./img3.png" height={200} width={300} />
             
                 <div className={styles.content}>
                     <p>i7 Core Processor</p>
