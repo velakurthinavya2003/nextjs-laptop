@@ -1,0 +1,58 @@
+.container{
+    height:100vh;
+    background: #6e7264;
+    color: #f0ecec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innercontainer
+{
+    
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto auto;
+    
+}
+.para
+{
+  width:100%;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 3rem;
+   margin: auto;
+   
+}
+.subdiv
+{
+    width: 90%;
+    position: relative;
+}
+.imagecontent .imgl
+{
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.imgl{
+    margin-top: 6rem;
+    margin-left: 5rem;
+    width:  12rem;
+    height: 10rem;
+
+}
+
+.content .img{
+    position: relative;
+    z-index: 2;
+}
+.img{
+    width:  30rem;
+    height: 30rem;
+    z-index: -1;
+    margin-left: 3rem;
+   
+    
+}
