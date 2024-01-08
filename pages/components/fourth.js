@@ -10,7 +10,7 @@ return (
             <p>Easy to handle</p>
           
         </div>
-       <Image className={styles.img} src="/img2-removebg-preview.png" height={200} width={300} />
+       <Image className={styles.img} src="./img2-removebg-preview.png" height={200} width={300} />
 
     </div>
     </div>
