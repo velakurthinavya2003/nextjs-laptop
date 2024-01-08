@@ -31,7 +31,7 @@ return (
             <p>hp launches new hp spectre X360</p>
             <button className={styles.btn}>Explore</button>
         </div>
-       <Image ref={animation} className={styles.img} src="/2.png" height={200} width={300} />
+       <Image ref={animation} className={styles.img} src="./2.png" height={200} width={300} />
 
     </div>
     </div>
